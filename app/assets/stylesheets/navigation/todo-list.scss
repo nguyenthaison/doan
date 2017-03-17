@@ -1,0 +1,113 @@
+.todo-list {
+  .direct-text {
+    text-align: center;
+    color: #e2e2e2;
+    font-size: 16px;
+    margin: 30px 0;
+
+    i {
+      vertical-align: text-bottom;
+      margin-right: 15px;
+    }
+  }
+
+  .group-button {
+    border: 1px dashed #ccc;
+    padding: 25px;
+    background-color: #f5f9fc;
+    text-align: center;
+
+    i {
+      color: #fff;
+    }
+
+    .common-raised-button {
+      width: 210px;
+    }
+  }
+
+  .todo {
+    margin-bottom: 20px;
+
+    .todo-title {
+      padding: 10px 20px;
+      margin-bottom: 10px;
+      color: #88c3eb;
+      border: 1px solid #d7e8f0;
+      background-color: #f5f9fc;
+      font-size: 16px;
+      font-weight: bold;
+      position: relative;
+
+      .content {
+        padding: 0px 40px 0px 15px;
+        display: block;
+      }
+
+      .delete-todo-btn {
+        border: 1px solid #ededed;
+        background-color: #fff;
+        height: 27px;
+        position: absolute;
+        right: 35px;
+        top: 8px;
+        border-radius: 3px;
+        padding: 3px 2px 1px 2px;
+
+        i {
+          color: #555555;
+          font-size: 18px;
+        }
+      }
+    }
+
+    .todo-attachments {
+      .list-attachment {
+        padding-left: 10px;
+      }
+    }
+
+    .left-border {
+      border: 3px solid #88c3eb;
+      border-radius: 6px;
+      position: absolute;
+      height: 27px;
+      top: 50%;
+      transform: translate(-50%,-50%);
+    }
+
+    .edit-todo-btn {
+      border: 1px solid #ededed;
+      background-color: #fff;
+      height: 27px;
+      position: absolute;
+      right: 8px;
+      top: 8px;
+      border-radius: 3px;
+      padding: 3px 2px 1px 2px;
+
+      i {
+        color: #555555;
+        font-size: 18px;
+      }
+    }
+
+    .node-list {
+      display: inline-block;
+
+      .node {
+        margin-right: 20px;
+        margin-bottom: 20px;
+
+        button {
+          span {
+            width: 170px;
+            display: inline-block;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+.step-list-config {
+  .body-index {
+    top: 130px;
+    text-align: center;
+
+    .title-guide {
+      font-size: 18px;
+      font-weight: bold;
+      color: #8b8b8b;
+    }
+
+    .list-step {
+      background-color: #fff;
+      width: 700px;
+      margin: 34px auto;
+      padding: 27px 0 35px 0;
+    }
+
+    .active-step {
+      span {
+        background-color: rgb(137, 195, 235) !important;
+      }
+    }
+
+    .in-active-step {
+      span {
+        background-color: #d7d7d7 !important;
+      }
+    }
+
+    .step {
+      position: relative;
+
+      .step-position-badge, .active-step-checkbox {
+        position: absolute !important;
+        top: 10px;
+      }
+
+      .step-field {
+        position: relative;
+        margin-bottom: 20px;
+
+        .step-label {
+          position: absolute;
+          left: 92px;
+          top: 13px;
+          font-size: 12px;
+          color: #d7d7d7;
+        }
+      }
+      .step-position-badge {
+        padding: 0 !important;
+        left: 68px;
+
+        span {
+          width: 45px !important;
+          height: 45px !important;
+          font-size: 20px !important;
+          color: #fff !important;
+        }
+      }
+
+      .common-textfield {
+        display: inline-block;
+        margin-bottom: 0;
+        margin-left: 30px;
+        width: 545px;
+        padding-top: 14px;
+        padding-right: 32px;
+      }
+
+      .active-step-checkbox {
+        width: 70px !important;
+        right: 17px;
+        top: 32px;
+      }
+    }
+  }
+}
+
+.create-navigation-dialog {
+  .group-button {
+    margin-bottom: 45px;
+  }
+}

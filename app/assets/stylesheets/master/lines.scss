@@ -1,0 +1,25 @@
+.master-line-detail {
+  .trouble-table {
+    border-right: 1px solid;
+    border-top: 1px solid;
+
+    .trouble-item {
+      border-bottom: 1px solid;
+      border-left: 1px solid;
+
+      .left-side {
+        padding: 5px 10px 5px 10px;
+      }
+    }
+
+    .trouble-item :last-child {
+      border-bottom: 0px;
+    }
+  }
+}
+
+.base-master-form {
+  .troubles {
+    padding: 10px 15px 0 15px;
+  }
+}

@@ -1,0 +1,47 @@
+.flow-item {
+  padding: 15px;
+  height: 82px;
+
+  .flow-body {
+    padding-left: 0px;
+
+    .flow-main-content {
+      display: inline-block;
+      width: 100%;
+
+      .flow-name {
+        width: calc(100% - 125px);
+        display: inline-block;
+        margin-top: 3px;
+      }
+
+      .flow-type {
+        display: inline-block;
+        float: left;
+      }
+    }
+
+    .flow-header {
+      label {
+        margin-right: 5px;
+        font-size: 11px;
+        color: #9e9e9e;
+
+        .material-icons {
+          vertical-align: middle;
+          font-size: 20px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  .action-button {
+    padding-top: 5px;
+
+    .common-raised-button {
+      float: right;
+      padding-left: 5px;
+    }
+  }
+}

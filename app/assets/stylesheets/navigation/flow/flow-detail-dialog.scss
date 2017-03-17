@@ -1,0 +1,101 @@
+.flow-detail-container {
+  margin: 40px;
+  border: 1px solid #ccc;
+}
+
+.flow-detail {
+  height: 100%;
+
+  .flow-type {
+    padding: 2px 15px;
+    margin-right: 10px;
+    border-radius: 2px;
+    color: #ffffff;
+  }
+
+  .complex {
+    background-color: #f9cd48;
+  }
+
+  .single {
+    background-color: #a3d29c;
+  }
+
+  i {
+    vertical-align: bottom;
+    font-size: 20px;
+  }
+
+  .flow-infor {
+    background-color: #eef9ff;
+    border-top: 1px solid #d7edfb;
+    border-bottom: 1px solid #d7edfb;
+    padding: 25px;
+
+    .flow-header {
+      color: #9f9e9c;
+      margin-bottom: 10px;
+
+      label {
+        margin-right: 10px;
+      }
+
+      i {
+        margin-right: 5px;
+        color: #9f9e9c;
+      }
+    }
+
+    .flow-name {
+      line-height: 26px;
+      font-weight: bold;
+
+      .flow-type {
+        float: left;
+        line-height: 20px;
+        font-weight: normal;
+      }
+    }
+
+    .other-info {
+      margin-top: 15px;
+
+      span {
+        word-break: break-all;
+      }
+
+      .row {
+        margin-bottom: 10px;
+      }
+
+      i {
+        color: #fb9788;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .todo-list {
+    padding: 0 10px 15px 10px;
+    max-height: 46%;
+    margin: 15px 10px 0 0;
+  }
+
+  .group-button {
+    position: absolute;
+    bottom: 10px;
+    left: 39%;
+  }
+}
+
+.flow-detail-dialog {
+  .flow-detail-container {
+    height: 100%;
+    margin: 0;
+    border: 0;
+  }
+
+  .dialog-body {
+    overflow: hidden !important;
+  }
+}

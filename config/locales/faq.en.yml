@@ -1,0 +1,4 @@
+en:
+  faquestions:
+    errors:
+      need_teams: "FAQ needs at least one team"

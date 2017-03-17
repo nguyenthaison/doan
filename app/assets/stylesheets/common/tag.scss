@@ -1,0 +1,11 @@
+@import "line.scss";
+
+.common-tag {
+  @extend .common-line;
+
+  border: 2px solid #e0e0e0;
+  .tags-list {
+    margin-top: 5px;
+    height: 230px;
+  }
+}

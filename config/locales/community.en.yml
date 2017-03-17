@@ -1,0 +1,4 @@
+en:
+  communities:
+    errors:
+      need_teams: "Community need at least one team"

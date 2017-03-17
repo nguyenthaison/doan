@@ -1,0 +1,31 @@
+ja:
+  faquestions:
+    client: "Client"
+    trouble: "Trouble"
+    title: "Title"
+    department: "Department"
+    question: "Question"
+    answer: "Answer"
+    tag: "Tag"
+    errors:
+      need_teams: "FAQに対し、チームを少なくとも 1 つ選択する必要があります。"
+    messages:
+      success: "FAQ is created successfully"
+      failed: "Could not create FAQ"
+    breadcum:
+      faq: "FAQ"
+      new: "New"
+    priorities:
+      low: "Low"
+      medium: "Medium"
+      high: "High"
+    keyword: "Keyword"
+    create_at: "Created at"
+    update_at: "Update_at"
+    helpfuls: "Helpfuls"
+    find: "Find"
+    numb: "No."
+    new_order: "New order"
+    view_order: "View order"
+    solution: "Resolution"
+    result: "Search result"

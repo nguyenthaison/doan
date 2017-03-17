@@ -1,0 +1,75 @@
+@import "params";
+
+.flow-form {
+  .flow-setting {
+    position: absolute;
+    overflow-x: hidden;
+    top: 92px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    padding-bottom: 20px;
+    background-color: #f5f9fc;
+
+    .flow-content {
+      width: 100%;
+    }
+
+    .config {
+      float: left;
+      width: 150px;
+      height: 100%;
+      position: relative;
+
+      .config-steps {
+        margin: 30px 0 0 30px;
+
+        .config-step {
+          height: 45px;
+          text-align: center;
+          padding-top: 12px;
+          font-weight: bold;
+          color: #909193;
+        }
+
+        .selected-stepper {
+          background-color: white;
+          border: 1px solid #ececec;
+          border-right: none;
+          margin-right: -1px;
+          color: #333333;
+        }
+      }
+    }
+
+    .right-content {
+      float: left;
+      width: calc(100% - 150px);
+      padding: 30px 0 30px 30px;
+      background-color: white;
+      border-left: 1px solid #ececec;
+      min-height: 100%;
+
+      .form-section-icon{
+        float: left;
+        margin-right: 8px;
+        width: 28px !important;
+        height: 28px !important;
+      }
+    }
+
+    .todos-content {
+      width: 90%;
+      float: left;
+
+      .todo-list {
+        .direct-text {
+          text-align: center;
+          color: #e2e2e2;
+          font-size: 16px;
+          margin: 30px 0;
+        }
+      }
+    }
+  }
+}

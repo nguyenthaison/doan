@@ -1,0 +1,47 @@
+.master-user-details {
+  .client-lines-detail {
+    background-color: #f6f6f6;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+  }
+}
+
+.list-role-user {
+  float: left;
+  width: 100%;
+
+  .small-label {
+    float: left;
+    margin-top:4px;
+  }
+
+  .role-container {
+    width: calc(100% - 90px);
+    padding-left: 40px;
+    float: left;
+    margin-top: 4px;
+
+    .role-item {
+      margin-right: 5px;
+      width: 22% !important;
+      display: inline-block !important;
+    }
+    .role-item {
+      font-size: 14px;
+    }
+  }
+}
+
+.master-user-form {
+  .client-lines-user {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+
+    .common-line {
+      margin: 10px 0 15px 0;
+    }
+  }
+}

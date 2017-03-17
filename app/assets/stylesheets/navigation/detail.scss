@@ -1,0 +1,227 @@
+.navigation-master-detail {
+  .master-header {
+    .left-area {
+      .list-header-navigation {
+        max-width: 65%;
+        display: inline;
+      }
+    }
+  }
+
+  .search-form {
+    margin: 30px 30px 0 30px;
+    background-color: #fff;
+    border: 1px solid  #E6E6E6;
+
+    .search-container {
+      padding: 20px 20px 0 20px !important;
+
+      .input-search {
+        width: calc(100% - 130px);
+        float: left;
+      }
+
+      .btn-submit-wp {
+        width: 115px;
+        float: right;
+
+        .btn-submit {
+          padding-top: 20px !important;
+        }
+      }
+    }
+  }
+
+  .btn-delete {
+    margin-right: 42px;
+    margin-bottom: 30px;
+  }
+
+  .main-navigation {
+    position: relative;
+    padding: 40px;
+    border-collapse: separate;
+
+    .navigation {
+      display: table-row;
+
+      .left-content {
+        display: table-cell;
+        border: 1px solid #eee;
+        width: 200px;
+        background-color: #f5f9fc;
+        vertical-align: top;
+      }
+
+      .todos-content {
+        display: table-cell;
+        background-color: #fff;
+        width: 100%;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #eee #eee #eee #fff;
+        padding-top: 30px;
+
+        .todo-list {
+          padding: 0 30px 30px 30px;
+        }
+
+        .group-button {
+          border: 1px dashed #ccc;
+          padding: 25px 25px 15px 25px;
+          background-color: #f5f9fc;
+          text-align: center;
+
+          i {
+            color: #fff;
+          }
+
+          .common-raised-button {
+            width: 210px;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.step-bar {
+  width: 200px;
+  background-color: #f5f9fc;
+  text-align: center;
+
+  .selected-step {
+    .step {
+      background-color: #555 !important;
+      color: white !important;
+    }
+  }
+
+  .active-arrow-down {
+    border-color: #555 transparent transparent transparent !important;
+  }
+
+  .step-bar-title {
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 15px 15px 15px;
+    text-align: center;
+  }
+
+  .prevent-change {
+    color: #ccc;
+  }
+
+  .step {
+    margin: auto;
+    height: 100px;
+    padding-top: 25px;
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .label-index {
+      font-size: 14px;
+    }
+
+    .step-name {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      padding: 0 15px;
+    }
+  }
+
+  .btn-claim {
+    width: 180px;
+    height: 50px;
+    margin: 20px 10px;
+    border: 1px solid #b7e0f8;
+    border-radius: 4px;
+    background-color: #d0e6f4;
+    text-align: left;
+    font-weight: bold;
+
+    span {
+      padding-left: 14px;
+
+      i {
+        vertical-align: bottom;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .arrow-down {
+    padding-bottom: 10px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    margin: auto;
+    border-width: 16px 14px 0 14px;
+    border-color: #d0e2ef transparent transparent transparent;
+    line-height: 0px;
+  }
+}
+
+.help-dialog {
+  .dialog-content {
+    width: 50% !important;
+
+    .dialog-body {
+      height: 200px;
+
+      p {
+        font-size: 20px;
+        padding-top: 30px;
+        text-align: center;
+
+        span {
+          font-size: 14px;
+        }
+      }
+
+      .group-button {
+        text-align: center;
+        display: block;
+
+        .common-raised-button {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+.publish-navigation-dialog {
+  .dialog-body {
+    padding: 30px 45px 0 28px !important;
+
+    .header-title {
+      padding-bottom: 15px;
+    }
+
+    .date-picker {
+      padding: 15px 0 0 40px;
+    }
+
+    .publish-date-picker {
+      float: left;
+      margin-right: 30px;
+    }
+  }
+}
+
+.navigation-group-btn {
+  width: 330px !important;
+  position: absolute;;
+  right: 20px;
+}
+
+@media (max-width: 1200px) {
+  .custom-status {
+    width: 105px;
+  }
+}

@@ -1,0 +1,42 @@
+.claim-list {
+  padding: 40px;
+  background: #fff;
+
+  .delete-todo-btn {
+    border: 1px solid #ededed;
+    background-color: #fff;
+    height: 27px;
+    position: absolute;
+    right: 35px;
+    top: 8px;
+    border-radius: 3px;
+    padding: 3px 2px 1px 2px;
+
+    i {
+      color: #555555;
+      font-size: 18px;
+    }
+  }
+
+  .add-new-claim {
+    width: 100%;
+    border: 1px dashed #e0e0e0;
+    height: auto !important;
+
+    button {
+      background-color: #fff !important;
+      :hover {
+        background-color: #f5f5f5 !important;
+      }
+    }
+
+    svg {
+      fill: #d0d0d0 !important;
+    }
+
+    span {
+      color: #d0d0d0 !important;
+      font-weight: bold !important;
+    }
+  }
+}

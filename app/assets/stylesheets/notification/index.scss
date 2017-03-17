@@ -1,0 +1,101 @@
+.search-by-time {
+  .time-range-select {
+    padding-left: 70px;
+
+    .select-date {
+      padding: 0 0;
+
+      .custom-select-date {
+        div {
+          width: 226px !important;
+        }
+      }
+    }
+
+    .text-after {
+      padding: 22px 0 0 0;
+      margin-left: 22px;
+    }
+  }
+}
+
+.select-team-dialog {
+  .dialog-body {
+    max-height: 296px !important;
+    overflow: auto;
+  }
+}
+
+.notification-container {
+  .search-container {
+    .query-search {
+      .select-time-range {
+        .search-field {
+          height: 50px;
+        }
+
+        .remove-search-icon {
+          color: #9e9e9e;
+          float: right;
+        }
+      }
+    }
+  }
+
+  .notification-list {
+    .faq-item {
+      .faq-body {
+        width: 100%;
+      }
+
+      .faq-header {
+        padding-bottom: 5px;
+        border-bottom: 1px solid #ccc;
+
+        .right-infor {
+          position: absolute;
+          right: 39px;
+        }
+      }
+
+      .faq-title {
+        margin-top: 10px;
+        line-height: 18px;
+      }
+
+      .faq-reaction {
+        width: 198px;
+        font-size: 14px;
+      }
+
+      .list-team-name {
+        font-size: 12px;
+        width: 70%;
+        color: #a09a9a;
+
+        i {
+          margin-left: 9px;
+          vertical-align: bottom;
+        }
+      }
+
+      .has-note {
+        width: 173px;
+      }
+
+      i {
+        color: black;
+        vertical-align: middle;
+        margin-right: 3px;
+        font-size: 18px !important;
+      }
+    }
+  }
+}
+
+.has-note {
+  i {
+    color: #9e9e9e !important;
+    margin-right: 10px !important;
+  }
+}

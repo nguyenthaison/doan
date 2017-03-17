@@ -1,0 +1,127 @@
+.notification-detail-container {
+  .content, .add-note {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+
+  .add-note {
+    padding: 0 25px 0 25px;
+
+    span {
+      padding: 10px 0;
+      width: 100%;
+      text-align: center;
+      background-color: #f8f8f8;
+      border: 1px solid #e5e6e7;
+    }
+
+    i {
+      vertical-align: bottom;
+    }
+  }
+
+  .list-attachment {
+    padding-left: 20px;
+  }
+
+  .new-comment-form {
+    margin-top: 30px;
+    padding: 20px 25px 20px 25px;
+    border: 1px solid #e5e6e7;
+  }
+
+  .comment-list {
+    i {
+      vertical-align: sub;
+    }
+  }
+
+  .note-list {
+    padding: 0 25px;
+
+    .note {
+      margin: 5px 0;
+      background-color: #f8f8f8;
+      border: 1px solid #e5e6e7;
+      font-size: 14px;
+
+      .top-infor {
+        padding: 15px 15px 20px 20px;
+        min-height: 40px;
+        position: relative;
+
+        .left-infor {
+          color: #555555;
+          float: left;
+          font-weight: bold;
+
+          i {
+            margin-right: 10px;
+            font-size: 18px;
+            vertical-align: sub;
+          }
+        }
+
+        .right-infor {
+          float: right;
+          width: auto;
+
+          .note-created-at {
+            color: #aeaeae;
+          }
+
+          .edit-note, .delete-note {
+            padding-left: 20px;
+            margin-left: 25px;
+            border-left: 1px solid #ccc;
+            text-decoration: underline;
+
+            .material-icons {
+              font-size: 18px;
+              margin-right: 5px;
+              vertical-align: sub;
+            }
+
+            &:hover {
+              color: #89c3eb;
+            }
+          }
+        }
+
+        span {
+          i {
+            vertical-align: bottom;
+          }
+        }
+      }
+
+      .note-content {
+        padding: 0px 15px 0px 20px;
+      }
+    }
+  }
+
+  .center-button-list {
+    text-align: center;
+    padding-top: 20px;
+
+    .common-raised-button {
+      width: 163px;
+      margin-left: 10px;
+    }
+  }
+
+  .related-items {
+    .related-faqs-title, .readed-users {
+      padding-left: 10px;
+    }
+
+    .readed-users {
+      max-height: 450px;
+      word-break: break-word;
+      padding-right: 10px;
+      padding-top: 10px;
+      font-size: 14px;
+    }
+  }
+}

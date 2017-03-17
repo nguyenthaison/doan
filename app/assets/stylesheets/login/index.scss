@@ -1,0 +1,23 @@
+.form-login {
+  .background-login {
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    z-index: -1;
+    top: 0;
+  }
+  .common-textfield {
+    margin: 0 4px;
+  }
+
+  .error-login-message {
+    color: red;
+  }
+
+  .img-logo {
+    padding-bottom: 45px;
+  }
+}

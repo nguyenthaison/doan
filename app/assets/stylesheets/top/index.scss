@@ -1,0 +1,302 @@
+@import "params";
+
+.top-page {
+  padding: 0 30px 30px 30px;
+
+  .announcement-img {
+    position: absolute;
+    left: 20px;
+    top: 44px;
+  }
+
+  .notification-list {
+    i {
+      color: #8fc6ed;
+    }
+
+    .has-note {
+      position: absolute;
+      left: 87%;
+      top: 3%;
+
+      i {
+        font-size: 20px;
+        vertical-align: middle;
+      }
+    }
+
+    .readed {
+      background-color: #f6f6f6 !important;
+      color: #c2c2c2 !important;
+    }
+
+    .item-row {
+      background-color: white;
+
+      .status-image {
+        float: left;
+        width: 55px;
+        height: 50px;
+
+        img {
+          margin-top: 11px;
+        }
+      }
+    }
+
+    .item-row:not(:last-child) {
+      border-bottom: 1px solid #ccc;
+    }
+
+    .title-list-faq-com {
+      i {
+        color: black;
+      }
+
+      .go-to-notification {
+        i {
+          color: #8fc6ed;
+        }
+
+        .go-to-notification-list {
+          text-decoration: underline;
+
+          &:hover {
+            color: #469be6;
+          }
+        }
+      }
+    }
+
+    .question {
+      color: #b5b5b5;
+    }
+
+    .filter-header {
+      padding: 10px;
+      background-color: #e5e6e8;
+      text-align: right;
+
+      .filter-tab {
+        padding: 1px 6px 0 6px;
+        margin-left: 10px;
+        border-radius: 3px;
+      }
+    }
+  }
+
+  .faq-com-list {
+    padding: 0;
+
+    .faq-list, .com-list {
+      width: 100%;
+      margin-top: 15px;
+      padding-top: 10px;
+      padding-bottom: 25px;
+
+      .list-content {
+        width: 100%;
+        border: 1px solid #e5e6e8;
+
+        .list-notice {
+          height: 450px;
+        }
+      }
+
+      .title-list-faq-com {
+        width: 100%;
+        margin-bottom: 12px;
+        font-weight: bold;
+
+        i {
+          margin-right: 10px;
+          float: left;
+          font-size: 18px;
+        }
+      }
+
+      .item-row {
+        width: 100%;
+        height: 90px;
+        padding-left: 10px;
+
+        .row-item {
+          padding: 15px;
+          width: 100%;
+
+          .type-icon {
+            width: 35px;
+            height: 35px;
+            border-radius: 20px;
+            background-color: blue;
+            float: left;
+            margin-right: 15px;
+          }
+
+          .faquestion {
+            background-color: #8294ca;
+            i {
+              margin-top: 9px;
+              margin-left: 9px;
+              font-size: 21px;
+            }
+          }
+
+          .community {
+            background-color: #a6d1a0;
+            i {
+              margin-top: 8px;
+              margin-left: 8px;
+              font-size: 21px;
+            }
+          }
+
+          .content {
+            .faq-com-title {
+              width: 100%;
+              margin-bottom: 15px;
+              position: relative;
+
+              .priority-label {
+                color: white;
+                min-width: 70px;
+                text-align: center;
+                border-radius: 3px;
+                float: left;
+                font-size: 12px;
+                line-height: 22px;
+                width: auto;
+                padding: 0px 6px;
+                margin-right: 15px;
+              }
+
+              .low {
+                background-color: #a3d39c;
+              }
+
+              .medium {
+                background-color: #f9cd48;
+              }
+
+              .high {
+                background-color: #ee5351;
+              }
+
+              .datetime {
+                position: absolute !important;
+                top: 3px;
+                right: 0px;
+
+                label {
+                  margin-right: 5px;
+                  font-size: 11px;
+                  color: $label-color;
+                }
+              }
+              .ellipsis-text{
+                width: calc(100% - 260px) !important;
+                font-weight: bold;
+                padding-top: 3px;
+              }
+            }
+
+            .question {
+              padding-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    .text-animation {
+      border: 2px solid #fc968a;
+      background-color: #ffffff;
+      font-size: 18px;
+      margin: 30px 0px;
+      font-weight: bold;
+
+      .wapper-text-content {
+        float: left;
+        width: calc(100% - 50px);
+        padding-left: 15px;
+
+        .text-content {
+          height: 40px;
+          padding-top: 13px;
+          margin-left: 40px;
+        }
+      }
+
+      .edit-text-animation {
+        padding-top: 10px;
+        padding-right: 10px;
+        text-align: right;
+
+        .btn-edit {
+          color: #a6a6a6 !important;
+        }
+      }
+    }
+  }
+
+  .feed {
+    margin-top: 30px;
+
+    .rss-feed-header {
+      background: linear-gradient(to right, #fb9689, #f5b1aa);
+      height: 40px;
+      h4 {
+        padding-top: 12px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        i {
+          vertical-align: middle;
+          margin-left: 10px;
+          margin-right: 10px;
+          font-size: 18px;
+        }
+      }
+    }
+    .rss-feed {
+      border: 1px solid #e6e6e6;
+      margin: 20px 0px 0px 0px;
+      background-color: #ffffff;
+      .rss-feed-title {
+        background-color: #eeeeee;
+        height: 35px;
+        h5 {
+          margin-top: 0px;
+          padding: 11px 15px 0px 15px;
+          font-size: 14px;
+          color: #fc9687;
+          font-weight: bold;
+          img{
+            margin-right: 10px;
+            float: left;
+            margin-top: -2px;
+          }
+        }
+      }
+      .rss-feed-content {
+        padding: 0px 15px 10px 15px;
+        font-size: 13px;
+        line-height: 20px;
+
+        .feed-item {
+          border-top: 1px solid #e6e6e6;
+          padding: 12px 0px;
+          a {
+            color: #393e44;
+          }
+          a:hover{
+            text-decoration: underline;
+          }
+        }
+        .feed-item:first-child{
+          border-top: 0px;
+        }
+      }
+    }
+  }
+}

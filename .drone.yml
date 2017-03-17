@@ -1,0 +1,8 @@
+deploy:
+  capistrano:
+    image: fdplugins/capistrano
+    when:
+      branch: develop
+    commands:
+      - cap testing deploy
+      - cap staging deploy

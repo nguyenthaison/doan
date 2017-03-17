@@ -1,0 +1,98 @@
+ja:
+  errors:
+    format: "%{attribute} %{message}"
+    messages:
+      model_invalid: "認証に失敗しました: %{errors}"
+      taken: "既に存在しています。"
+      inclusion: "一覧に存在していません"
+      exclusion: "is reserved"
+      invalid: "形式がただしくありません"
+      confirmation: "doesn't match %{attribute}"
+      accepted: "must be accepted"
+      empty: "必須項目です"
+      blank: "必須項目です"
+      present: "must be blank"
+      too_long:
+        one: "長すぎます (最大長さは１文字)"
+        other: "長すぎます (最大長さは %{count}文字)"
+      too_short:
+        one: "短すぎます(最小長さは1文字)"
+        other: "短すぎます(最小長さは %{count}文字)"
+      wrong_length:
+        one: "is the wrong length (should be 1 character)"
+        other: "is the wrong length (should be %{count} characters)"
+      not_a_number: "数字ではありません"
+      not_an_integer: "整数でなければなりません"
+      greater_than: "%{count}以上の値を入力してください"
+      greater_than_or_equal_to: "must be greater than or equal to %{count}"
+      equal_to: "must be equal to %{count}"
+      less_than: "must be less than %{count}"
+      less_than_or_equal_to: "must be less than or equal to %{count}"
+      other_than: "must be other than %{count}"
+      odd: "must be odd"
+      even: "must be even"
+      confirmation: "確認パスワードとパスワードが一致しません"
+    sessions:
+      inactive: "アカウントはまだ有効ありません。システム管理者にご連絡してください。"
+      invalid_login: "ID、パスワードを忘れた方は、管理者にお問い合わせください。"
+  sessions:
+    login: "Login"
+    logout: "Logout"
+    forgot: "(forgot password)"
+    reset: "Reser Password"
+    not_admin: "You are not Admin"
+    profile: "Profile"
+    edit: "Update User"
+    signup: "Signup"
+    back: "Back"
+    notice_pwd: "(leave blank if you don't want to change it)"
+    current_pwd: "(we need your current password to confirm your changes)"
+    cancel: "Cancel my account"
+    confirm: "Are you sure?"
+    unhappy: "Unhappy?"
+  time:
+    formats:
+      default: "%Y-%m-%d %H:%M:%S"
+      without_second: "%Y-%m-%d %H:%M"
+      in_mail: "%Y/%m/%d"
+  notifications:
+    errors:
+      need_teams: "お知らせに対し、チームを少なくとも 1 つ選択する必要があります。"
+      start_must_before_end_date: "開始日付は終了日付より前を選択してください。"
+      start_must_more_than_or_equal_current_date: "開始日付は本日から選択してください。"
+  users:
+    errors:
+      role_must_less_current_role: "can't choose higher role"
+  companies:
+    no_deadline: "期間なし"
+    errors:
+      start_must_before_end_date: "開始日付は終了日付より前を選択してください。"
+      start_must_more_than_or_equal_current_date: "開始日付は本日から選択してください。"
+  steps:
+    default_name: "名前のSTEP"
+  todos:
+    errors:
+      need_nodes: "TODOに対し、トラブルを少なくとも 1 つ選択する必要があります。"
+  email:
+    unread_notification_users:
+      subject: "お知らせ未読者通知"
+      title_1: "お知らせ未読者一覧は下記となります。"
+      title_2: "※未読者：掲示開始目から4目以上経過しても既読にならないユーザー"
+  manual_files:
+    default_name: "資料集"
+  bookmarks:
+    default_name: "参考サイトTOP"
+  navigations:
+    one_published: "はも公開中ナビーゲションが存在していますので、公開できません。再度ご確認ください。"
+  number:
+    human:
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one: "Byte"
+            other: "Bytes"
+          kb: "KB"
+          mb: "MB"
+          gb: "GB"
+          tb: "TB"

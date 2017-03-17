@@ -1,0 +1,16 @@
+.common-selectfield {
+  margin-bottom: 25px;
+
+  label {
+    clear: both;
+    display: block !important;
+  }
+
+  svg {
+    top: 14px !important;
+  }
+
+  label.focused {
+    color: black;
+  }
+}

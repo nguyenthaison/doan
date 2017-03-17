@@ -1,0 +1,75 @@
+.file-uploader {
+  clear: both;
+  .file-input {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: 10;
+  }
+
+  .list-uploaded-file {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+  }
+
+  .uploaded-file {
+    margin-right: 15px;
+    padding-top: 2px;
+
+    span {
+      width: 150px;
+      overflow:hidden;
+      white-space:nowrap;
+      text-overflow: ellipsis;
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .upload-button {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 7px;
+  }
+
+  .list-file {
+    width: 100%;
+
+    .list-attachment {
+      padding: 0px;
+
+      .attachment-border {
+        width: 190px;
+        margin-bottom: 10px;
+        float: left;
+        position: relative;
+        margin-right: 10px;
+
+        .attachment-item {
+          padding: 5px;
+          background-color: #e0e0e0;
+          height: 175px;
+
+          .attachment-name {
+            font-size: 15px;
+            color: #464343;
+          }
+
+          img {
+            width: 180px;
+            height: 133px;
+
+            &:hover {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}

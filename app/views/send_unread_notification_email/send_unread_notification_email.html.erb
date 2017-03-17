@@ -1,0 +1,33 @@
+<div style="font-family: 'Mieryo, sans-serif'">
+  <div><%= t("email.unread_notification_users.title_1") %></div>
+  <div><%= t("email.unread_notification_users.title_2") %></div>
+</div>
+<div style="list-style-type: none; padding-left: 10px; font-size: 16px; line-height: 22px;
+  font-family: 'Mieryo, sans-serif'">
+  <% @teams.each do |team| %>
+    <div style="padding-top: 1em;">
+      <span>
+        ◆
+        <%= team[:team_name] %>:
+      </span><br />
+      <ul style="list-style-type: disc; padding-left: 20px; margin-top: 0px;">
+        <% team[:notifications].each do |notification| %>
+          <li>
+            <span>
+              <%= notification[:title] %>:
+            </span><br />
+            <span style="font-weight: normal;">
+              <% notification[:unread_users].each do |user| %>
+                <%= user.name %>
+                <% if user != notification[:unread_users].last %>
+                  <%= "," %>
+                <% end %>
+              <% end %>
+            </span>
+          </li>
+        <% end %>
+      </ul>
+      <br />
+    </div>
+  <% end %>
+</div>

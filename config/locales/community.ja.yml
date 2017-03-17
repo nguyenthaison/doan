@@ -1,0 +1,4 @@
+ja:
+  communities:
+    errors:
+      need_teams: "コミュニティに対し、チームを少なくとも 1 つ選択する必要があります。"

@@ -1,0 +1,18 @@
+en:
+  layout:
+    title: "FAQ navigation"
+    note: "welcome"
+    sidebar:
+      top: "TOP"
+      navigation: "Navigation"
+      faq: "FAQ"
+      community: "Community"
+      manual: "Manual"
+      site: "Site"
+      my_page: "My page"
+      master: "Master"
+      help: "Help"
+      faq_about: "FAQ about"
+      search: "Search"
+      like: "Like"
+      logout: "Logout"

@@ -1,0 +1,86 @@
+.manual-file-index {
+  .left-area {
+    line-height: 0 !important;
+
+    .group-button {
+      padding-top: 29px;
+    }
+
+    .file-uploader {
+      float: left;
+      margin-left: 25px;
+      margin-right: 0px;
+    }
+  }
+
+  .breadcrumb-folder {
+    height: 55px;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 15px 0 0 23px;
+
+    span {
+      font-weight: bold;
+      padding-right: 6px;
+    }
+  }
+
+  .file-icon {
+    margin-right: 20px;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    display: inline-block;
+
+    img {
+      width: 18px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .file-name {
+    vertical-align: 7px;
+  }
+
+  .folder-name {
+    vertical-align: 7px;
+
+    a {
+      color: #333333;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: #337ab7;
+    }
+  }
+
+  .body-index {
+    top: 147px !important;
+
+    .table-index {
+      .table-row {
+        .icon-name-field {
+          padding-top: 15px;
+        }
+
+        .path-name {
+          padding-left: 43px;
+        }
+
+        .match-search-string {
+          background-color: #f8f8c5;
+          color: #aaaa77;
+        }
+      }
+
+      .search-table-row {
+        height: 70px !important;
+      }
+    }
+  }
+}

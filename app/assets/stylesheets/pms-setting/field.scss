@@ -1,0 +1,82 @@
+.rss-form {
+  .rss-feed-title {
+    height: 40px;
+
+    h4 {
+      font-size: 14px;
+      font-weight: bold;
+
+      i {
+        vertical-align: middle;
+        font-size: 24px;
+        margin-top: -7px;
+        margin-right: 6px;
+      }
+
+      .note-small {
+        font-size: 11px;
+        font-weight: normal;
+        color: #aaaaaa;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .wp-date-picker {
+    .select-date {
+      display: flex;
+
+      .text-after {
+        padding-top: 25px;
+        padding-left: 30px;
+      }
+
+      .icon-delete {
+        i {
+          font-size: 18px !important;
+          padding-top: 15px;
+        }
+      }
+    }
+  }
+
+  .add-new-rss {
+    width: 100%;
+    border: 1px dashed #e0e0e0;
+    height: auto !important;
+
+    button {
+      background-color: #fff !important;
+      :hover {
+        background-color: #f5f5f5 !important;
+      }
+    }
+
+    svg {
+      fill: #d0d0d0 !important;
+    }
+
+    span {
+      color: #d0d0d0 !important;
+      font-weight: bold !important;
+    }
+  }
+
+  .rss-sources {
+    .remove-search-icon {
+      color: rgba(0, 0, 0, 0.6);
+      font-size: 18px;
+      position: absolute;
+      top: -10px;
+      right: 15px;
+    }
+
+    .relative {
+      position: relative;
+    }
+  }
+
+  .error-message {
+    color: red;
+  }
+}

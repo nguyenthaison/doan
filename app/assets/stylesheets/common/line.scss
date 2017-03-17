@@ -1,0 +1,21 @@
+.common-line {
+  border: solid 2px #e0e0e0;
+
+  .left {
+    border-right: solid 1px #e0e0e0;
+    padding-top: 15px;
+  }
+
+  .list {
+    overflow: auto;
+    padding: 0;
+  }
+
+  .right-panel {
+    margin: 0px auto;
+
+    .lines-list {
+      height: 300px;
+    }
+  }
+}

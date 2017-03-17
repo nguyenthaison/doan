@@ -1,0 +1,2 @@
+Fabricator(:organization) do
+end

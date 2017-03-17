@@ -1,0 +1,31 @@
+.common-textfield {
+  margin-bottom:25px;
+  label {
+    clear: both;
+    display: block !important;
+  }
+
+  label.focused {
+    color: black;
+  }
+
+  .text-count {
+    margin-top: 0px;
+    float: right;
+    font-size: 11px;
+  }
+}
+
+.common-textfield.disabled {
+  width: 100% !important;
+
+  label {
+    top: 18px !important;
+  }
+  input {
+    margin-top: 6px !important;
+  }
+  hr {
+    bottom: 16px !important;
+  }
+}

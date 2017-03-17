@@ -1,0 +1,64 @@
+.todo-form {
+  i {
+    vertical-align: bottom;
+  }
+
+  .title-todo {
+    padding: 11px;
+    margin-bottom: 20px;
+    background-color: #f5f9fc;
+    border: 1px solid #d7e8f2;
+
+    input {
+      width: 100%;
+      padding: 8px;
+    }
+  }
+
+  .select-attachment {
+    font-size: 13px;
+
+    .upload-file-title {
+      font-weight: bold;
+
+      i {
+        color: #faa497;
+      }
+    }
+
+    .file-uploader {
+      margin: 0;
+      padding-top: 10px;
+    }
+  }
+
+  .add-node {
+    color: #d0d0d0;
+    text-align: center;
+    border: 1px dashed #ccc;
+    padding: 10px 0;
+    margin: 20px 0;
+  }
+
+  .node-list {
+    width: 49%;
+  }
+
+  .node-form {
+    position: relative;
+
+    .remove-search-icon {
+      position: absolute;
+      right: 0;
+      top: 24px;
+    }
+  }
+
+  .cancel-save-group-button {
+    margin-bottom: 20px;
+
+    .btn-delete {
+      margin-right: 15px;
+    }
+  }
+}

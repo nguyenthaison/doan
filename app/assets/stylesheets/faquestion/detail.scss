@@ -1,0 +1,227 @@
+.faq-detail-container {
+  margin: 25px;
+  font-size: 20px;
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .faq-badge {
+    span {
+      width: 32px !important;
+      height: 32px !important;
+      font-size: 20px !important;
+      color: #ffffff !important;
+      font-weight:bold;
+    }
+  }
+
+  .question-icon, .answer-icon {
+    float: left;
+    position: relative;
+    margin: 0 0 0 15px;
+  }
+
+  .faq-infor-detail {
+    padding: 20px 20px 10px 20px;
+
+    .faq-time-detail {
+      padding-top: 8px;
+      font-size: 12px;
+
+      span {
+        margin-left: 17px;
+        color: #363636;
+
+        i {
+          vertical-align: middle;
+          margin-right: 3px;
+          font-size:18px !important;
+        }
+      }
+    }
+  }
+
+  .faq-title-detail {
+    background-color: #efefef;
+    padding-top: 18px;
+
+    .faq-title{
+      padding-bottom: 10px;
+      white-space: pre-wrap;
+    }
+
+    .col-md-10 {
+      margin-top: 4px;
+    }
+
+    .priority-label {
+      font-size: 14px;
+      border-radius:0px;
+      line-height:17px;
+      margin-right:10px;
+    }
+
+    .faq-title-content {
+      font-size: 16px;
+      margin-left: 15px;
+      margin-bottom:10px;
+    }
+
+    .faq-reaction {
+      background: #fff;
+      margin-right: 10px;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+
+      .reaction-count{
+        font-size: 14px;
+      }
+    }
+  }
+
+  .faq-question-detail, .faq-answer-detail {
+    padding: 30px 0;
+    font-size: 14px;
+    padding-right: 20px;
+
+    .content {
+      width:calc(100% - 85px);
+      float:right;
+      margin-right:20px;
+      line-height:23px;
+    }
+  }
+
+  .faq-question-detail {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .faq-client-lines-detail, .faq-tags-detail, .faq-troubles-detail {
+    div {
+      float: left;
+      font-size: 12px;
+      margin-bottom:0px;
+    }
+    div.col-md-10{
+      margin-top:5px;
+    }
+
+    i {
+      margin-top: 5px;
+      color: #fc968a;
+      font-size: 18px;
+    }
+  }
+
+  .other-info {
+    padding:12px 0px 12px 65px;
+    background-color: #f7f7f7;
+    margin:30px 0px 10px 0px
+  }
+
+  .main-details, .related-items {
+    position: relative;
+    float: left;
+  }
+
+  .main-details {
+    width: 80%;
+    width: calc(100% - 254px);
+    padding: 0 15px 0 15px;
+  }
+
+  .related-items {
+    width: 224px;
+    margin: 0 15px 0 15px;
+
+    .related-faqs {
+      box-sizing: border-box;
+      margin-bottom: 30px;
+      background:#fff;
+
+      .related-faqs-title {
+        padding-top: 2px;
+        padding-bottom: 4px;
+
+        .related-faq-title {
+          color: black;
+        }
+
+        h4 {
+          color: #ffffff;
+
+          i {
+            vertical-align: middle;
+            margin-left: 15px;
+            margin-right: 10px;
+            font-size:18px;
+          }
+
+          span {
+            font-size:14px;
+            font-weight:bold;
+          }
+        }
+      }
+
+      .related-faqs-content {
+        border-left:1px solid #ebebeb;
+        border-right:1px solid #ebebeb;
+        border-bottom:1px solid #ebebeb;
+        .related-faq {
+          padding: 4px 15px 8px 15px;
+          border-bottom: 1px solid #ebebeb;
+          h4{
+            font-size:14px;
+            font-weight:bold;
+            margin-bottom:6px;
+          }
+          p{
+            margin-bottom:0px;
+          }
+          a {
+            color: #363636;
+            font-weight: bold;
+
+            &:hover {
+              color: #000;
+              text-decoration:underline;
+            }
+          }
+
+          p {
+            font-size: 12px;
+            color: #aeaeae;
+          }
+        }
+      }
+    }
+  }
+}
+
+.faq-not-found {
+  margin: 20px 0 0 20px;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.preview-attachment-dialog {
+  text-align: center;
+
+  .modal-body {
+    width: 40% !important;
+  }
+
+  .header-modals {
+    text-align: left;
+  }
+
+  .img-dialog {
+    height: 450px;
+    max-width: 100%;
+    padding: 15px;
+  }
+}
